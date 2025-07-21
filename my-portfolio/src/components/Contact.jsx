@@ -119,15 +119,15 @@ const Contact = () => {
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-center gap-3">
                   <i className="fas fa-envelope text-purple-400" />
-                  <a href="mailto:john@devworkspace.com" className="hover:text-purple-400">john@devworkspace.com</a>
+                  <a href="mailto:john@devworkspace.com" className="hover:text-purple-400">priyadarshinipratyasha7@gmail.com</a>
                 </li>
                 <li className="flex items-center gap-3">
                   <i className="fas fa-phone-alt text-purple-400" />
-                  <a href="tel:+1234567890" className="hover:text-purple-400">+1 (234) 567-890</a>
+                  <a href="tel:+1234567890" className="hover:text-purple-400">7735033462</a>
                 </li>
                 <li className="flex items-center gap-3">
                   <i className="fas fa-map-marker-alt text-purple-400" />
-                  <span>San Francisco, CA</span>
+                  <span>Puri,odisha</span>
                 </li>
               </ul>
             </div>
@@ -139,10 +139,10 @@ const Contact = () => {
                 Connect with Me
               </h3>
               <div className="flex gap-6">
-                <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-purple-400 text-2xl">
+                <a href="https://github.com/pratyasha-debug" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-purple-400 text-2xl">
                   <i className="fab fa-github" />
                 </a>
-                <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-purple-400 text-2xl">
+                <a href="https://www.linkedin.com/in/pratyasha-priyadarshini-2a3b871b1/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-purple-400 text-2xl">
                   <i className="fab fa-linkedin" />
                 </a>
                 <a href="https://twitter.com/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-purple-400 text-2xl">

@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="space-y-6 md:col-span-1">
             <h3 className="flex items-center gap-3">
               <i className="fas fa-code text-purple-400 text-3xl animate-pulse" />
-              <span className="text-2xl font-bold text-white font-mono">John Peterson</span>
+              <span className="text-2xl font-bold text-white font-mono">Pratyasha Priyadarshini</span>
             </h3>
             <p className="text-gray-300 leading-relaxed">
               Building the future with clean code, creativity, and a passion for innovation.
@@ -84,7 +84,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center px-6 text-sm text-gray-300 gap-3">
           <p>
-            © {year} John Peterson. Crafted with{" "}
+            © {year} Pratyasha Priyadarshini. Crafted with{" "}
             <i className="fas fa-heart text-purple-400 mx-1" /> and{" "}
             <i className="fas fa-coffee text-purple-400 mx-1" />.
           </p>
