@@ -57,7 +57,10 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section id="cta" className="py-20 bg-[#0f0f0f] border-y border-gray-800 relative">
+      <section
+        id="cta"
+        className="py-20 bg-[#0f0f0f] border-y border-gray-800 relative"
+      >
         <div className="absolute inset-0 bg-hero opacity-[.03] pointer-events-none"></div>
 
         <div className="container mx-auto px-4 text-center text-white">
@@ -68,19 +71,29 @@ const About = () => {
             </p>
           </div>
 
+          {/* Optional coffee image */}
           {/* <img
             src={coffeeImg}
             alt="Coffee Cup"
             className="mx-auto w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 animate-bounce drop-shadow-xl"
           /> */}
 
+          {/* Buttons */}
           <div className="mt-8 flex justify-center gap-6">
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition">
+            <a
+              href="mailto:priyadarshinipratyasha7@gmail.com"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition"
+            >
               Hire Me
-            </button>
-            <button className="bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pratyasha-priyadarshini-2a3b871b1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+            >
               Let's Connect
-            </button>
+            </a>
           </div>
         </div>
       </section>
